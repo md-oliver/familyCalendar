@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+header {
+    position: relative;
+    min-height: 15vh;
+    overflow: hidden;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    rotate: -5deg;
+    margin: auto;
+
+    color: var(--text-col);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto 0;
+
+    /* font-family: "Yesteryear", cursive;
+    font-weight: 100;
+    font-style: normal; */
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin: 0 3rem;
+}

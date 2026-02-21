@@ -1,0 +1,13 @@
+.decorator-image {
+    height: 30px;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+}
+
+.decorator-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-position: center;
+    object-fit: contain;
+}
